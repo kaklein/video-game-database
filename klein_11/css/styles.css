@@ -1,0 +1,124 @@
+
+html {
+	background-color: #e9ebf7;
+}
+
+body {
+	margin: 10px;
+}
+
+h1 {
+	color: #5e2ca2;
+	text-align: center;
+	font-family: 'VT323', monospace;
+	font-size: 2.3em;
+	text-shadow: 3px 3px white;
+}
+
+legend, label, input, th, td, .button {
+	font-family: 'Source Sans 3', Tahoma, Arial, sans-serif;
+}
+
+legend {
+	color: #5e2ca2;
+	padding: 10px;
+	border: 1px solid #5e2ca2;
+	border-radius: 10px;
+	background-color: white;
+}
+
+fieldset {
+	border-color: #5e2ca2;
+	border-radius: 10px;
+	width: fit-content;
+	margin: auto;
+	background-color: white;
+}
+
+label {
+	font-weight: bold;
+	float: right;
+	color: #414141;
+}
+
+input {
+	border-right: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	border-top: 1px solid #949395;
+	border-left: 1px solid #949395;
+	font-size: 1em;
+}
+
+td {
+	width: fit-content;
+}
+
+.not-bold {
+	font-weight: normal;
+	float: left;
+}
+
+#played {
+	float: left;
+}
+
+.button {
+	font-size: 1em;
+	padding: 10px;
+	background-color: #5e2ca2;
+	display: block;
+	color: white;
+	border: 2px solid #5e2ca2; 
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	width: fit-content;
+}
+
+.button:hover {
+	background-color: #d2c1fc;
+	border: 2px solid #5e2ca2;
+	color: #5e2ca2;
+	cursor: pointer; 
+}
+
+.formTable td {
+	padding: 5px;
+}
+
+.displayTable, .displayTable th, .displayTable td {
+	border: 1px solid #5e2ca2;
+}
+
+.displayTable {
+	border-collapse: collapse;
+	margin: auto;
+	width: fit-content;
+	background-color: white;
+}
+
+.displayTable th {
+	font-weight: bold;
+	color: white;
+	background-color: #5e2ca2;
+	padding: 5px;
+}
+
+.displayTable td {
+	padding: 5px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;	
+}
+
+a:visited {
+	color: white;
+}
